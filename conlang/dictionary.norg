@@ -4,6 +4,8 @@ Jagarôth dictionary
 CHANGES
 s/-ash/-ast/ :: it sounds more metal :: DONE
 
+make final -apt inchoative, "become"
+
 ;; maybe this, maybe not
 s/verbal prefix: -en/verbal prefix: -em/gc
 
@@ -28,19 +30,31 @@ need: or
 
 {$ tot}[tot]
 
+$ -apt
+verbal suffix :: inchoative marker, "become"
+;  sadaptâlethen tan vâv-thor ::
+;  The fellow and the woman separated (became two).
+;  mûmbaptâlem narlîz tok ::
+;  I will die on that distant day.
+
+$ narl
+nominal :: a nycthemeron, the period of a planet's full rotation; day and night together
+;  
+
 $ meth
 conjunction :: or
-;  there is not an enclitic equivalent as there is for _gash_; _meth_ is the only Jagarôth word for _or_
+there is not an enclitic equivalent as there is for _gash_; _meth_ is the only Jagarôth word for _or_
 
 $ perd
 verbal root :: to destroy, to cause to perish, to ruin
-; from Yrthic language Greek :: perdein, to destroy
-; but actually it means "to fart" so what the fuck??
-; valency :: S (nominative) v. O (accusative)
-; perdax :: a destroyed one; a thing lost, one lost
-; î memen tethej perdaxen ::
-; BE 1.pl.NOM 3.s.CARITIVE make-lost.PASS.pl
-; we are without her lost
+;
+;  from Yrthic language Greek :: perdein, to destroy
+;  but actually perdein means "to fart" so what the fuck??
+;  valency :: S (nominative) v. O (accusative)
+perdax :: a destroyed one; a thing lost, one lost
+;  î memen tethej perdaxen ::
+;  BE 1.pl.NOM 3.s.CARITIVE make-lost.PASS.pl
+;  we are without her lost
 
 $ perdax
 nominal :: a destroyed one; a thing lost, one lost
@@ -50,13 +64,22 @@ $ zip
 number :: zero
 
 $ zip 
-number :: zero; no, none
+number :: zero
 ;  numbers are both nouns and adjectives
 ;  example :: î Vov zip :: There is no God.
+adjective :: no, none
+;  î Vov zip :: 
+;  there is no God
+;  bororûthid vê spelâleth thaimethîz, î-then Vov zip ::
+;  The fool has said in his heart, There is no God.
 verbal root :: to not exist, to sum to zero
 ;  zipâl- :: finite verb :: is zero, does not exist
 ;  valency :: Subject (nominative) v. ::
 ;  example :: Vov zipâleth :: God is zero, God does not exist.
+
+$ thaim
+nominal :: heart
+;  after Ancient Yrthic usage, names the seat of deliberations and the emotions
 
 $ tot 
 number :: one
@@ -70,6 +93,13 @@ verbal root :: to be one and the same, to be identical
 
 $ sad
 number :: two %(for usage see zip or tot)%
+
+$ sadach
+verbal root :: to become two, to become separate; to separate (self from smthg)
+;  sad + -ach == sadach :: verbal root :: to become two, to become separate; to separate (self from smthg)
+;  valency 1 :: intransitive :: S. (nom==two separators, or one thing becoming two) :: to become two
+;  valency 2 :: transitive defective (oject==self and is not expressed) S. (subject==object (unexpressed)) v. (Ablative phrase optional)
+
 
 $ fat
 number :: three %(for usage see zip or tot)%
@@ -106,10 +136,7 @@ example :: î tan kentethot vê panâlen borgîz mûmbid wel ::
 
 
 $ -then
-conjunction :: that; subordinate clause marker
-
-$ -then
-conjunction :: that; subordinate clause marker
+conjunction :: that; subordinate clause marker; indirect speech marker
 ;  also marks indirect speech
 ;  spelâleth hûn-thenot kafâlen Marishov ::
 ;     say.FIN.3ss MORALOBLIGATION-that.ACC go.FIN.1ss Venus.all
@@ -150,7 +177,8 @@ verbal root :: to affirm
 ;  valency :: transitive :: S (nom) vb. O (acc).
 ;  skrîd /yes/ + -ath /applicative verbal suffix/
 ;  skrîdathâleth staburneth rûthot ::
-;  yes.APPLIC.FIN.3ss stand.nominalizer.3ss way-of-peace-reason-health.ACC
+;  yes.APPLIC.FIN.3ss stand.nominalizer.3ss.(NOM) way-of-peace-reason-health.ACC
+;  Her life (literally, her stance, standing) affirms the way-of-peace-reason-health.
 
 $ -ath :: verbal suffix :: applicative suffix
 ;
@@ -850,6 +878,29 @@ verbal root :: to fly
 
 $ wavûm
 nominal :: night, nighttime
+;  Skârtos layâlos wavûmîz Skârid ::
+;  Skârmoon shines in the night of Skâr.
+
+$ lay
+verbal root :: radiate, shine, be bright
+;  valency :: intransitive :: S (nom==the one who shines) v.
+;  the thing that is shined is expressed by the instrumental
+;    layâlos Rorb 
+;  layâlos Rorb mothîz ::
+;  The Sun shines in the sky.
+;  layaz :: Active participial, a bright thing
+
+$ layaz
+nominal < active participial :: a bright, shining thing
+
+$ moth
+nominal :: sky, heaven; outer space
+
+$ girn
+nominal :: a 3-d volume; 3-dimensional space; the concept of three-dimensional space
+
+$ girnid
+adjective :: three-dimensional
 
 $ wey
 verbal root :: eat
@@ -864,6 +915,7 @@ nominal :: a morsel, an ort
 
 $ with
 nominal :: a galla like the ancestral priestesses of Ishtar, Inana, Astarte, Kypros
+;  the Jagarôth word for a tran
 
 $ wlap
 nominal :: pig, hog
@@ -921,7 +973,10 @@ nominal :: Phobos
 
 $ Tos
 nominal :: Deimos
-;  proper name
+;  proper name of the Lesser Moon of Wahaz
+;  tos :: nominal :: a moon; from Tos, the name of the Lesser Moon
 
-
+$ tos
+nominal :: a moon
+;  from Tos, the name of the Lesser Moon
 
